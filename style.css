@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 105px; /* Add padding to account for the header height */
+}
+
+header {
+    height: 100px;
+    background-color: rgb(177, 202, 175);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed; /* Fixed position to keep it at the top */
+    top: 0; /* Place at the top of the viewport */
+    left: 0;
+    right: 0;
+    z-index: 1; /* Ensure it's on top of other content */
+}
+
+#profile {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.footer {
+    background-color: rgb(177, 202, 175);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-2 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(3, 159, 3);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+img {
+    height: 250px;
+    width: auto;
+    /* /* border-radius: 50%; */
+}
