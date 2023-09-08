@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding-top: 105px; 
-    position: relative;
 }
 
 header {
@@ -46,6 +45,7 @@ header {
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+    height: 7px;
 }
 
 a {
